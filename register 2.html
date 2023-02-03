@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="FIGOCAR we design and develop website,logo design ,business card design  search engine optimasation " logo,website template,card design,all categories of website="FIGOCAR">
+        <meta name="E-COMMERCE WEBSITE,BLOG WEBSITE,BUSINESS CARDS,SHOWCASE STORE,ONLINESTORE,SEARCH ENGINE optimasation,IN ONE WEEK,KEEPER price,BOOKINGBUY WEBSITE AT JUST $1="FIGOCAR,FIGOCAR">
+        <meta name=" BY  WASWA. Y " SKIIS:HTML,PHP,MYSQL,DATABASE,CSS,JAVASCRIPT,ILLUSTRETOR,PHOTOSHOP="FIGOCAR">
+        <title>FIGOCAR</title>
+        <link rel="stylesheet" href="rigester 2.css">
+        <a href="registr.html">Register</a>
+
+    </head>
+    <body>
+        <h2>Start your free trial now!!</h2>
+        <div class="container"id="container">
+            <div class="form-container Sign- up-container">
+                <form action="#">
+                    <h1>Create account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-youtube-y"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-instagram-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text"placeholder="NAME"/>
+                    <input type="email"placeholder="Email"/>
+                    <input type="password"placeholder="password">
+                    <button>Sign up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a hreflang="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a hreflang="#" class="social"><i class="fab fa-telegram-t"></i></a> 
+                        <a hreflang="#" class="social"><i class="fab fa-youtube-y"></i></a>
+                    </div>
+                    <span>or use your Account</span>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <a href="#">Forget your password</a>
+                    <button>sign in</button>
+                    </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>Welcome Back?</h1>
+                            <p>To Keep Connected with us please login with Your Parson Information</p>
+                            <button class="ghost"id="Signin">signin</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>Hello Friend</h1>
+                            <p>Enter your personal details and start journey with us</p>
+                            <button class="ghost"id="signup">Signup</button>
+                                 </div>
+                                </div>
+                             </div>
+                            </div>
+            <footer>
+                <div class="footer -button text center">
+                    copyright &copy;2023 Figocar All RIGHT RESERVED
+                </div>
+            </footer>
+            <script>
+                const SignupButtun=document.getElementById('Sign up');
+                const signinButton=document.getElementById('signin');
+                const container=document.getElementById('container');
+
+                SignupButtun.addEventListener('clik', () =>{
+                    container.classlist.remove("right-panel-activate");
+
+                });
+                signinButton.addEventListener('click', () =>{
+                    container.classlist.add("right-panel-active");
+                });
+            </script>
+    </body>
+</html>
